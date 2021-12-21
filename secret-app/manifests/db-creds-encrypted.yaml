@@ -3,7 +3,6 @@ kind: SealedSecret
 metadata:
   creationTimestamp: null
   name: mysql-credentials
-  namespace: default
 spec:
   encryptedData:
     connection: AgAFo9oGpr2nKkGjG7cFQ9+2P0ckpTEin53YOrc++L9kmylU67GLnQgJPYntKybHDR43TwQ2dtwa+oEZSEojW20k29+/86i1p+f6Y+RiKLlrYodJPvM5oy0BcB0J4JfRXWDSOvvKlyNPcXvH9lJU5Y2oXMXvR3RuOBCJ0IQdtYuq6UUmmaRw4t3tiAXO0fq75gNBEDXwNc+HzkSo8oRsXmNzekGRhkm7W62xRKc+H/O25NhSqzeTRuMOkRtpCl18zXyTcSOoHDv/ezonnD0n/1JH8j/B/nLG7tPM0EI5uKdS3Z5uvMbKVAbnVL+nNasD67w60bwW6Z1p9i4zJjTQvjVGPvMwHMDbIiycRgz5Z47EyVbi9Wtzf7kYnC9O8yaHZU3qD+C9VZRrSKSXCR3a/hJ5FG0R+GkPVV4rdolSAR15/qPoFbl402duhF8RqlrUxYSRqscQXt/Aka+k4JOOB+cU/rj83tM8qJkVHHTvEAbyC23GtatZ5dUh0r9CSkTrWwDNOnzAyisybj2Jcws1foiHLhY4maIX7XtJ5rVk7Cof1KSEN92E3yWJgFTdBv8SEIP+2eeANBwttI1AzQrYad6wutJlhCOQs9guxTxDu9hsAyHzrJ/nXJl4g/Io1kBzpSJaDKbEXqrTJUBzLRxKchxjb3LID7w3q0Kszm4M2JfmJ/+T45Df8KC6ox9AvA3iCn/3n1rL1zEegcdRug3a998MHNk1Htxnt3NCB/8HMi4+i2g=
@@ -14,6 +13,5 @@ spec:
     metadata:
       creationTimestamp: null
       name: mysql-credentials
-      namespace: default
     type: Opaque
 
